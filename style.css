@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 100vh;
+}
+
+header video {
+  width: 99vw;
+  position: fixed;
+}
+
+.video-container {
+  position: relative;
+}
+
+.video-container .logo {
+  left: 50px;
+  top: 30px;
+  position: relative;
+}
+
+.video-container .logo img {
+  position: relative;
+  height: 160px;
+  width: 138px;
+}
+
+.video-container .text-nav {
+  left: 30px;
+  bottom: 180px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 97vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+.video-container .text-nav p {
+  position: relative;
+  padding: 0 20px 0 0;
+  text-transform: uppercase;
+  font-size: 50px;
+  font-family: "Pathway Gothic One", sans-serif;
+}
+
+.video-container .text {
+  margin: -50px 20px 0 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.video-container .text h1 {
+  font-size: 90px;
+  position: relative;
+  font-family: "Pathway Gothic One", sans-serif;
+  font-family: "Anton", sans-serif;
+}
+
+.video-container .text p {
+  bottom: 155px;
+  font-size: 72px;
+  position: relative;
+  font-family: "Pathway Gothic One", sans-serif;
+}
+
+main {
+  position: absolute;
+  width: 100vw;
+}
+
+main #container-boxs {
+  background-color: white;
+  background-size: cover;
+  height: 148vh;
+  position: relative;
+}
+
+main #container-boxs .boxs {
+  height: 370px;
+  width: 580px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  margin-left: 240px;
+}
+
+main #container-boxs .boxs .box {
+  padding: 70px 70px 70px 70px;
+  position: relative;
+}
+
+main #container-boxs .boxs .box img {
+  height: 360px;
+  width: 260px;
+  position: relative;
+}
+
+main #container-boxs .boxs .box2 img {
+  height: 230px;
+}
+
+main #container-boxs .boxs .box3 img {
+  position: relative;
+  bottom: 107px;
+  height: 470px;
+}
+/*# sourceMappingURL=style.css.map */
