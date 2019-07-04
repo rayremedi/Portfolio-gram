@@ -13,7 +13,7 @@ header video {
 }
 
 .video-container {
-  position: relative;
+  position: absolute;
 }
 
 .video-container .logo {
@@ -30,7 +30,7 @@ header video {
 
 .video-container .text-nav {
   left: 30px;
-  bottom: 180px;
+  bottom: 750px;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
@@ -38,10 +38,15 @@ header video {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  position: relative;
+  z-index: 100;
+  position: fixed;
 }
 
-.video-container .text-nav p {
+.video-container .text-nav a {
+  text-decoration: none;
+}
+
+.video-container .text-nav a p {
   position: relative;
   padding: 0 20px 0 0;
   text-transform: uppercase;
@@ -50,7 +55,7 @@ header video {
 }
 
 .video-container .text {
-  margin: -50px 20px 0 500px;
+  margin: -30px 20px 0 500px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

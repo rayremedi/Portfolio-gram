@@ -4,20 +4,17 @@ body {
 }
 
 header {
+  // border: 4px solid black;
   // position: absolute;
   height: 100vh;
   video {
     width: 99vw;
-
     position: fixed;
-
-    source {
-    }
   }
 }
 //   border: 4px solid black;
 .video-container {
-  position: relative;
+  position: absolute;
   .logo {
     left: 50px;
     top: 30px;
@@ -30,26 +27,28 @@ header {
   }
   .text-nav {
     left: 30px;
-    bottom: 180px;
+    bottom: 750px;
     justify-content: flex-end;
     width: 97vw;
     display: flex;
+    z-index: 100;
+    position: fixed;
+    a {
+      text-decoration: none;
+      p {
+        position: relative;
 
-    position: relative;
+        padding: 0 20px 0 0;
 
-    p {
-      position: relative;
-
-      padding: 0 20px 0 0;
-
-      text-transform: uppercase;
-      font-size: 50px;
-      font-family: "Pathway Gothic One", sans-serif;
+        text-transform: uppercase;
+        font-size: 50px;
+        font-family: "Pathway Gothic One", sans-serif;
+      }
     }
   }
   .text {
     // position: relative;
-    margin: -50px 20px 0 500px;
+    margin: -30px 20px 0 500px;
 
     display: flex;
     flex-direction: column;
@@ -79,7 +78,7 @@ main {
   #container-boxs {
     background-color: white;
     background-size: cover;
-    height: 148vh;
+    height: 150vh;
     position: relative;
 
     .boxs {
